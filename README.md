@@ -16,7 +16,7 @@ Juniper cRPD sample MPLS topology and configuration with containerlab
 + Install [containerlab](https://containerlab.dev/)
 + [Juniper cRPD Deployment Guide for Linux Server](https://www.juniper.net/documentation/us/en/software/crpd/crpd-deployment/topics/task/cRPD-Linux-Server-Docker-Routing-Mode.html) for reference
 
-Note: I am running it in an ubuntu 18.04 LTS virtual machine
+Note: I am running it in an ubuntu 18.04 LTS virtual machine, 8vCPU and 16GB RAM
 
 
 ### Activate MPLS module and Increase label limit in the host for MPLS forwarding between the containers
@@ -45,6 +45,14 @@ lab@ubuntu1804:~$
 ```
 
 ### Clone the repository
+
+
+```
+
+
+```
+
+
 
 ### Deploy the lab
 
@@ -405,4 +413,4 @@ listening on eth3, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 22:10:27.551437 IP 192.168.200.1 > 192.168.100.1: ICMP echo reply, id 37, seq 1, length 64
 ```
 
-
+Thank You!
