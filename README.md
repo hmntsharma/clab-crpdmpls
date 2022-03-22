@@ -45,14 +45,17 @@ lab@ubuntu1804:~$
 ```
 
 ### Clone the repository
-
-
 ```
-
-
+lab@ubuntu1804:~/clab$ sudo git clone https://github.com/w1nt3rfell/clab-crpdmpls.git
+Cloning into 'clab-crpdmpls'...
+remote: Enumerating objects: 110, done.
+remote: Counting objects: 100% (110/110), done.
+remote: Compressing objects: 100% (78/78), done.
+remote: Total 110 (delta 37), reused 74 (delta 25), pack-reused 0
+Receiving objects: 100% (110/110), 55.79 KiB | 1.74 MiB/s, done.
+Resolving deltas: 100% (37/37), done.
+lab@ubuntu1804:~/
 ```
-
-
 
 ### Deploy the lab
 
