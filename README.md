@@ -18,20 +18,19 @@ Juniper cRPD sample MPLS topology and configuration with containerlab
 
 Note: I am running it in an ubuntu 18.04 LTS virtual machine
 
-### Activate MPLS module in the host for MPLS forwarding between the containers
+
+### Activate MPLS module and Increase label limit in the host for MPLS forwarding between the containers
 
 ```
 lab@ubuntu1804:~$ sudo modprobe mpls_iptunnel
 lab@ubuntu1804:~$ sudo modprobe mpls_router
 lab@ubuntu1804:~$ sudo modprobe ip_tunnel
-
 lab@ubuntu1804:~$ sudo sysctl -w net.mpls.platform_labels=1048575
 net.mpls.platform_labels = 1048575
 lab@ubuntu1804:~$ 
 ```
 
 Verify
-
 ```
 lab@ubuntu1804:~$ lsmod | grep mpls
 mpls_iptunnel          16384  0
