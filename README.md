@@ -11,7 +11,7 @@ Juniper cRPD sample MPLS topology and configuration with containerlab
 
 + Install [Docker](https://www.docker.com/)
 + Download, Load and Install [Juniper cRPD](https://www.juniper.net/gb/en/dm/crpd-free-trial.html)
-  + Install Test License, else BGP wont work
+  + Install test license, else BGP won't work
 + Install [wbitt/network-multitool](https://hub.docker.com/r/wbitt/network-multitool) docker image
 + Install [containerlab](https://containerlab.dev/)
 + [Juniper cRPD Deployment Guide for Linux Server](https://www.juniper.net/documentation/us/en/software/crpd/crpd-deployment/topics/task/cRPD-Linux-Server-Docker-Routing-Mode.html) for reference
