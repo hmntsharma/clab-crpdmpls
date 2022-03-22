@@ -3,14 +3,14 @@ all:
     crpd:
       hosts:
         CR2:
-          ansible_host: 172.20.20.4
-        PE1:
           ansible_host: 172.20.20.5
+        PE1:
+          ansible_host: 172.20.20.4
         PE3:
-          ansible_host: 172.20.20.2
+          ansible_host: 172.20.20.6
     linux:
       hosts:
         HOST1:
-          ansible_host: 172.20.20.6
+          ansible_host: 172.20.20.2
         HOST3:
           ansible_host: 172.20.20.3
