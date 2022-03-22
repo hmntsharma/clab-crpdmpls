@@ -137,9 +137,7 @@ cRPD needs both the loopback interfaces in the ISIS.
 root@PE1> show configuration | display set | match "isis.*lo"
 set protocols isis interface lo.0
 set protocols isis interface lo0.0
-
 root@PE1>
-
 ```
 
 ### Verify Dynamic Routing and Forwarding 
@@ -344,6 +342,33 @@ ff02::2/128        *[INET6/0] 00:17:00
                        MultiRecv
 
 root@PE1>
+```
+
+```
+root@PE1:/# ip route show
+default via 172.20.20.1 dev eth0
+2.2.2.2 via 10.1.2.2 dev eth1 proto 22
+3.3.3.3 via 10.1.2.2 dev eth1 proto 22
+10.1.2.0/24 dev eth1 proto kernel scope link src 10.1.2.1
+10.2.3.0/24 via 10.1.2.2 dev eth1 proto 22
+172.20.20.0/24 dev eth0 proto kernel scope link src 172.20.20.4
+root@PE1:/#
+root@PE1:/#
+root@PE1:/# ip -f mpls route show
+16 dev __crpd-vrf1 proto 22
+17 via inet 10.1.2.2 dev eth1 proto 22
+18 as to 16 via inet 10.1.2.2 dev eth1 proto 22
+root@PE1:/#
+root@PE1:/#
+root@PE1:/# ping -c2 3.3.3.3 -I 1.1.1.1
+PING 3.3.3.3 (3.3.3.3) from 1.1.1.1 : 56(84) bytes of data.
+64 bytes from 3.3.3.3: icmp_seq=1 ttl=63 time=0.298 ms
+64 bytes from 3.3.3.3: icmp_seq=2 ttl=63 time=0.098 ms
+
+--- 3.3.3.3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1016ms
+rtt min/avg/max/mdev = 0.098/0.198/0.298/0.100 ms
+root@PE1:/#
 ```
 
 
