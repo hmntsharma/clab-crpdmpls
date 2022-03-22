@@ -39,25 +39,7 @@ ip_tunnel              24576  4 ipip,ip_gre,sit,mpls_router
 lab@ubuntu1804:~$ 
 
 lab@ubuntu1804:~$ sudo sysctl -a | grep mpls
-sysctl: reading key "net.ipv6.conf.all.stable_secret"
-sysctl: reading key "net.ipv6.conf.default.stable_secret"
-sysctl: reading key "net.ipv6.conf.docker0.stable_secret"
-sysctl: reading key "net.ipv6.conf.ens3.stable_secret"
-sysctl: reading key "net.ipv6.conf.erspan0.stable_secret"
-sysctl: reading key "net.ipv6.conf.gretap0.stable_secret"
-sysctl: reading key "net.ipv6.conf.ip6tnl0.stable_secret"
-sysctl: reading key "net.ipv6.conf.lo.stable_secret"
-sysctl: reading key "net.ipv6.conf.sit0.stable_secret"
-net.mpls.conf.docker0.input = 0
-net.mpls.conf.ens3.input = 0
-net.mpls.conf.erspan0.input = 0
-net.mpls.conf.gre0.input = 0
-net.mpls.conf.gretap0.input = 0
-net.mpls.conf.lo.input = 0
-net.mpls.conf.sit0.input = 0
-net.mpls.conf.tunl0.input = 0
-net.mpls.default_ttl = 255
-net.mpls.ip_ttl_propagate = 1
+<..snipped..>
 net.mpls.platform_labels = 1048575
 lab@ubuntu1804:~$
 ```
@@ -97,10 +79,13 @@ INFO[0005] Adding containerlab host entries to /etc/hosts file
 lab@ubuntu1804:~/github/clab-crpdmpls$
 ```
 
-### containerlab yml file 
+### Verify Linux interface configuration
+
 cRPD uses Linux kernel forwarding, for which all the interface config is done in the shell.
-The "linux_net_config" directory contains the interface configuration for all the routers and hosts.
-The contents of the files are executed as instructed in the yml file and the IP addresses and routing are configured accordingly.
+
+The "linux_net_config" directory contains the necessary configuration for all the routers and hosts.
+
+The 'exec' command in the .yml file configures it on the nodes, once the lab is deployed.
 
 ```
 root@PE1:/# ip addr show eth1
@@ -145,6 +130,17 @@ default via 192.168.100.2 dev eth3
 bash-5.1#
 ```
 
+### Useful Info
+
+cRPD needs both the loopback interfaces in the ISIS.
+```
+root@PE1> show configuration | display set | match "isis.*lo"
+set protocols isis interface lo.0
+set protocols isis interface lo0.0
+
+root@PE1>
+
+```
 
 ### Verify Dynamic Routing and Forwarding 
 ```
