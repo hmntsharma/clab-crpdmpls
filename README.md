@@ -140,13 +140,13 @@ bash-5.1#
 
 ### Useful Info
 
-cRPD needs both the loopback interfaces in the ISIS.
-```
-root@PE1> show configuration | display set | match "isis.*lo"
-set protocols isis interface lo.0
-set protocols isis interface lo0.0
-root@PE1>
-```
+>cRPD needs both the loopback interfaces in the ISIS.
+>```
+>root@PE1> show configuration | display set | match "isis.*lo"
+>set protocols isis interface lo.0
+>set protocols isis interface lo0.0
+>root@PE1>
+>```
 
 ### Verify Dynamic Routing and Forwarding 
 ```
@@ -413,4 +413,4 @@ listening on eth3, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 22:10:27.551437 IP 192.168.200.1 > 192.168.100.1: ICMP echo reply, id 37, seq 1, length 64
 ```
 
-Thank You!
+**Thank You!**
