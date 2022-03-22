@@ -1,0 +1,16 @@
+all:
+  children:
+    crpd:
+      hosts:
+        CR2:
+          ansible_host: 172.20.20.4
+        PE1:
+          ansible_host: 172.20.20.5
+        PE3:
+          ansible_host: 172.20.20.2
+    linux:
+      hosts:
+        HOST1:
+          ansible_host: 172.20.20.6
+        HOST3:
+          ansible_host: 172.20.20.3

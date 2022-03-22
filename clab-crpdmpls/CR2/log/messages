@@ -1,0 +1,349 @@
+Mar 22 21:16:32 CR2 rsyslogd: rsyslogd's groupid changed to 101
+Mar 22 21:16:32 CR2 rsyslogd: rsyslogd's userid changed to 101
+Mar 22 21:16:32 CR2 rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="120" x-info="https://www.rsyslog.com"] start
+Mar 22 21:16:32 CR2 bfdd: pvidb_get_root_node: Error(2) retrieving rootnode value
+Mar 22 21:16:32 CR2 agentd[109]: 0x93f730c0, ipt_open, 618: Creating IPT
+Mar 22 21:16:32 CR2 agentd[109]: 0x93f730c0, ipt_open, 658: IPT /var/run/db/agentd/db_64/agentd.db created
+Mar 22 21:16:32 CR2 agentd[109]: ipt_kvdb_create_sec_table, 468: Creating secondary table sensor-name-id-map-table for sensortable
+Mar 22 21:16:32 CR2 agentd[109]: ipt_kvdb_create_sec_table, 500: Secondary table sensor-name-id-map-table created for sensortable!
+Mar 22 21:16:32 CR2 : <182>1 2022-03-22T21:16:32.822Z CR2 mgd 138 UI_CFG_AUDIT_OTHER [junos@- username="root" action="override" pathname="/config/juniper.conf" delimiter="" value=""] User 'root' override: /config/juniper.conf 
+Mar 22 21:16:32 CR2 : <30>1 2022-03-22T21:16:32.826Z CR2 mgd 138 UI_LOAD_JUNOS_DEFAULT_FILE_EVENT [junos@- pathname="/etc/config//junos-defaults.conf"] Loading the default config from /etc/config//junos-defaults.conf
+Mar 22 21:16:32 CR2 : <182>1 2022-03-22T21:16:32.827Z CR2 mgd 138 UI_CFG_AUDIT_SET_SECRET [junos@- username="root" action="set" pathname="[system root-authentication encrypted-password\]"] User 'root' set: [system root-authentication encrypted-password]
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.831Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Obtaining lock for commit"] Commit operation in progress: Obtaining lock for commit
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.833Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Started running translation script"] Commit operation in progress: Started running translation script
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.858Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Finished running translation script"] Commit operation in progress: Finished running translation script
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.858Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="start loading commit script changes"] Commit operation in progress: start loading commit script changes
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.858Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="no commit script changes"] Commit operation in progress: no commit script changes
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.859Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="no transient commit script changes"] Commit operation in progress: no transient commit script changes
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.859Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="finished loading commit script changes"] Commit operation in progress: finished loading commit script changes
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.859Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="No translation output from the scripts"] Commit operation in progress: No translation output from the scripts
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.859Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="building groups inheritance path full in candidate db"] Commit operation in progress: building groups inheritance path full in candidate db
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.859Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="finished groups inheritance path"] Commit operation in progress: finished groups inheritance path
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.859Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="copying juniper.db to juniper.data+"] Commit operation in progress: copying juniper.db to juniper.data+
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.863Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="finished copying juniper.db to juniper.data+"] Commit operation in progress: finished copying juniper.db to juniper.data+
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.864Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="expanding interface-ranges"] Commit operation in progress: expanding interface-ranges
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.876Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="finished expanding interface-ranges"] Commit operation in progress: finished expanding interface-ranges
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.876Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="setup foreign files"] Commit operation in progress: setup foreign files
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.879Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="propagating foreign files"] Commit operation in progress: propagating foreign files
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.879Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Sending constraint check command to evaluate constraints"] Commit operation in progress: Sending constraint check command to evaluate constraints
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.879Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/mustd"] Starting child '/usr/sbin/mustd'
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.932Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/mustd" pid="157" status-code="0"] Cleanup child '/usr/sbin/mustd', PID 157, status 0
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.932Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="constraints passed in mustd - not checking constraints in propagation"] Commit operation in progress: constraints passed in mustd - not checking constraints in propagation
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.934Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="complete foreign files"] Commit operation in progress: complete foreign files
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.968Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="start ffp propagate"] Commit operation in progress: start ffp propagate
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.969Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/ffp"] Starting child '/usr/sbin/ffp'
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.987Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/ffp" pid="158" status-code="0"] Cleanup child '/usr/sbin/ffp', PID 158, status 0
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.987Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="finish ffp propagate"] Commit operation in progress: finish ffp propagate
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.988Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="daemons checking new configuration"] Commit operation in progress: daemons checking new configuration
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.988Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning Routing protocols process to check new configuration"] Commit operation in progress: Spawning Routing protocols process to check new configuration
+Mar 22 21:16:32 CR2 : <190>1 2022-03-22T21:16:32.988Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/rpd"] Starting child '/usr/sbin/rpd'
+Mar 22 21:16:33 CR2 kernel: [46919.012525] eth3: renamed from clab-451dea58
+Mar 22 21:16:33 CR2 kernel: [46919.040788] IPv6: ADDRCONF(NETDEV_UP): eth3: link is not ready
+Mar 22 21:16:33 CR2 kernel: [46919.040835] IPv6: ADDRCONF(NETDEV_CHANGE): eth2: link becomes ready
+Mar 22 21:16:33 CR2 kernel: [46919.043488] IPv6: ADDRCONF(NETDEV_CHANGE): eth3: link becomes ready
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.310Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Routing protocols process"] Commit operation in progress: Collecting status of Routing protocols process
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.310Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/rpd" pid="159" status-code="0"] Cleanup child '/usr/sbin/rpd', PID 159, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.310Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning Bidirectional Forwarding Detection process to check new configuration"] Commit operation in progress: Spawning Bidirectional Forwarding Detection process to check new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.310Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/bfdd"] Starting child '/usr/sbin/bfdd'
+Mar 22 21:16:33 CR2 bfdd: pvidb_get_root_node: Error(2) retrieving rootnode value
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.327Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Bidirectional Forwarding Detection process"] Commit operation in progress: Collecting status of Bidirectional Forwarding Detection process
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.328Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/bfdd" pid="173" status-code="0"] Cleanup child '/usr/sbin/bfdd', PID 173, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.328Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning agent for all the telemetry sensors to check new configuration"] Commit operation in progress: Spawning agent for all the telemetry sensors to check new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.328Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/agentd"] Starting child '/usr/sbin/agentd'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.389Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of agent for all the telemetry sensors"] Commit operation in progress: Collecting status of agent for all the telemetry sensors
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.389Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/agentd" pid="178" status-code="0"] Cleanup child '/usr/sbin/agentd', PID 178, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.389Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning Bidirectional Forwarding Detection process to check new configuration"] Commit operation in progress: Spawning Bidirectional Forwarding Detection process to check new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.390Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/bfdd"] Starting child '/usr/sbin/bfdd'
+Mar 22 21:16:33 CR2 bfdd: pvidb_get_root_node: Error(2) retrieving rootnode value
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.405Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Bidirectional Forwarding Detection process"] Commit operation in progress: Collecting status of Bidirectional Forwarding Detection process
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.405Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/bfdd" pid="185" status-code="0"] Cleanup child '/usr/sbin/bfdd', PID 185, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.405Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning Audit process to check new configuration"] Commit operation in progress: Spawning Audit process to check new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.405Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/auditd"] Starting child '/usr/sbin/auditd'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.418Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Audit process"] Commit operation in progress: Collecting status of Audit process
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.418Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/auditd" pid="193" status-code="0"] Cleanup child '/usr/sbin/auditd', PID 193, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.418Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning Event processing process to check new configuration"] Commit operation in progress: Spawning Event processing process to check new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.418Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/eventd"] Starting child '/usr/sbin/eventd'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.427Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Event processing process"] Commit operation in progress: Collecting status of Event processing process
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.427Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/eventd" pid="194" status-code="0"] Cleanup child '/usr/sbin/eventd', PID 194, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.427Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Spawning Feature license management process to check new configuration"] Commit operation in progress: Spawning Feature license management process to check new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.427Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/license-check"] Starting child '/usr/sbin/license-check'
+Mar 22 21:16:33 CR2 license-check: pvidb_get_root_node: Error(2) retrieving rootnode value
+Mar 22 21:16:33 CR2 license-check: PVIDB: Attribute 'license.license_key_type' not present in Db
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Feature license management process"] Commit operation in progress: Collecting status of Feature license management process
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/license-check" pid="195" status-code="0"] Cleanup child '/usr/sbin/license-check', PID 195, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="commit wrapup..."] Commit operation in progress: commit wrapup...
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/jlaunchd.inc'"] Commit operation in progress: activating '/var/etc/jlaunchd.inc'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/ntp.conf'"] Commit operation in progress: activating '/var/etc/ntp.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/bootpd.conf'"] Commit operation in progress: activating '/var/etc/bootpd.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/init.inc'"] Commit operation in progress: activating '/var/etc/init.inc'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="start ffp activate"] Commit operation in progress: start ffp activate
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.447Z CR2 mgd 138 UI_CHILD_START [junos@- command="/usr/sbin/ffp"] Starting child '/usr/sbin/ffp'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.456Z CR2 mgd 138 UI_CHILD_STATUS [junos@- command="/usr/sbin/ffp" pid="196" status-code="0"] Cleanup child '/usr/sbin/ffp', PID 196, status 0
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.456Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/master.passwd'"] Commit operation in progress: activating '/var/etc/master.passwd'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.457Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/etc/passwd'"] Commit operation in progress: activating '/etc/passwd'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/etc/group'"] Commit operation in progress: activating '/etc/group'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/rc.conf.inc'"] Commit operation in progress: activating '/var/etc/rc.conf.inc'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/sshd_conf'"] Commit operation in progress: activating '/var/etc/sshd_conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/etc/xinetd.conf'"] Commit operation in progress: activating '/etc/xinetd.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/ssh_config'"] Commit operation in progress: activating '/var/etc/ssh_config'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/login.conf'"] Commit operation in progress: activating '/var/etc/login.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/csh.login.inc'"] Commit operation in progress: activating '/var/etc/csh.login.inc'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.469Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/motd'"] Commit operation in progress: activating '/var/etc/motd'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/issue'"] Commit operation in progress: activating '/var/etc/issue'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/jeb_conf'"] Commit operation in progress: activating '/var/etc/jeb_conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/jeb_stunnel.conf'"] Commit operation in progress: activating '/var/etc/jeb_stunnel.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/pam.conf'"] Commit operation in progress: activating '/var/etc/pam.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/etc/pam.d/juniper-auth'"] Commit operation in progress: activating '/etc/pam.d/juniper-auth'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/pam_radius.conf'"] Commit operation in progress: activating '/var/etc/pam_radius.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/pam_tacplus.conf'"] Commit operation in progress: activating '/var/etc/pam_tacplus.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/motd.junos'"] Commit operation in progress: activating '/var/etc/motd.junos'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/jegd_conf'"] Commit operation in progress: activating '/var/etc/jegd_conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/ephinst.conf'"] Commit operation in progress: activating '/var/etc/ephinst.conf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.470Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/certs'"] Commit operation in progress: activating '/var/etc/certs'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.473Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="executing foreign_commands"] Commit operation in progress: executing foreign_commands
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.487Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="executing ui_commit in rc.ui"] Commit operation in progress: executing ui_commit in rc.ui
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.497Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="finish ffp activate"] Commit operation in progress: finish ffp activate
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.497Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="db_groups_info_clear start"] Commit operation in progress: db_groups_info_clear start
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.499Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="db_groups_info_clear done"] Commit operation in progress: db_groups_info_clear done
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.499Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="activating '/var/run/db/juniper.data'"] Commit operation in progress: activating '/var/run/db/juniper.data'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.501Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="ssync begins"] Commit operation in progress: ssync begins
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.501Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="ssync ends"] Commit operation in progress: ssync ends
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.501Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="ssync begins"] Commit operation in progress: ssync begins
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.501Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="ssync ends"] Commit operation in progress: ssync ends
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.504Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="ssync begins"] Commit operation in progress: ssync begins
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.505Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="ssync ends"] Commit operation in progress: ssync ends
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.505Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="mgd tracing: disabled"] Commit operation in progress: mgd tracing: disabled
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.505Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="New database revision 'localhost-1647983791-1' and old database revision ''"] Commit operation in progress: New database revision 'localhost-1647983791-1' and old database revision ''
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.505Z CR2 mgd 138 UI_COMMIT_PROGRESS [junos@- message="commit complete"] Commit operation in progress: commit complete
+Mar 22 21:16:33 CR2 : <188>1 2022-03-22T21:16:33.505Z CR2 mgd 138 UI_COMMIT_COMPLETED [junos@- message="commit complete"]  : commit complete 
+Mar 22 21:16:33 CR2 license-check: pvidb_get_root_node: Error(2) retrieving rootnode value
+Mar 22 21:16:33 CR2 license-check: PVIDB: Attribute 'license.license_key_type' not present in Db
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.553Z CR2 rpd - JTASK_START [junos@- executable-name="rpd" pid="114" version="21.4R1.12" date="2021-12-17 14:41:21 UTC"] Start rpd[114] version 21.4R1.12 built 2021-12-17 14:41:21 UTC
+Mar 22 21:16:33 CR2 rpd: L2CKT acquiring mastership for primary
+Mar 22 21:16:33 CR2 rpd: L2VPN acquiring mastership for primary
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.740Z CR2 rpd - RPD_START [junos@- executable-name="rpd" pid="114" version="21.4R1.12" date="2021-12-17 14:41:21 UTC"] Start rpd[114] version 21.4R1.12 built 2021-12-17 14:41:21 UTC
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.746Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="bgp" argument2="Rtt_specific_index:" data-1="3" argument3="NameIndex:" data-2="3"] ALLOC: RTTable_Name: bgp Rtt_specific_index: 3 NameIndex: 3
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.746Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="__master.anon__" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="1"] ALLOC: RTTable_Name: __master.anon__ Rtt_specific_index: 0 NameIndex: 1
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.747Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="mgmt_junos" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="2"] ALLOC: RTTable_Name: mgmt_junos Rtt_specific_index: 0 NameIndex: 2
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.761Z CR2 rpd - RPD_KRT_MULTIFIB_SERVICE_INIT - Initializing KRT Multi FIB Service
+Mar 22 21:16:33 CR2 rpd: task_license_feature_init
+Mar 22 21:16:33 CR2 rpd: libjtask-license nextgen licensing infra active
+Mar 22 21:16:33 CR2 rpd: licinfra_notify_register_init success
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.773Z CR2 mgd 226 UI_AUTH_EVENT [junos@- username="root" authentication-level="super-user"] Authenticated user 'root' assigned to class 'super-user'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.774Z CR2 mgd 226 UI_LOGIN_EVENT [junos@- username="root" class-name="super-user" local-peer="" pid="226" ssh-connection="" client-mode="cli"] User 'root' login, class 'super-user' [226], ssh-connection '', client-mode 'cli'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.776Z CR2 mgd 226 UI_CMDLINE_READ_LINE [junos@- username="root" command="xml-mode netconf need-trailer "] User 'root', command 'xml-mode netconf need-trailer '
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.777Z CR2 mgd 226 UI_LOGOUT_EVENT [junos@- username="root"] User 'root' logout
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.812Z CR2 mgd 225 UI_AUTH_EVENT [junos@- username="root" authentication-level="super-user"] Authenticated user 'root' assigned to class 'super-user'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.812Z CR2 mgd 225 UI_LOGIN_EVENT [junos@- username="root" class-name="super-user" local-peer="" pid="225" ssh-connection="" client-mode="netconf"] User 'root' login, class 'super-user' [225], ssh-connection '', client-mode 'netconf'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.814Z CR2 mgd 225 UI_NETCONF_CMD [junos@- username="root" command="open-configuration ephemeral-instance=junos-analytics commit-check"] User 'root' used NETCONF client to run command 'open-configuration ephemeral-instance=junos-analytics commit-check'
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="Started ephemeral db commit"] Commit operation in progress: Started ephemeral db commit
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="Obtaining lock for commit"] Commit operation in progress: Obtaining lock for commit
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="Obtained Lock"] Commit operation in progress: Obtained Lock
+Mar 22 21:16:33 CR2 : <188>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_EPHEMERAL_COMMIT [junos@- username="root" instance="junos-analytics"] User 'root' has requested commit on 'junos-analytics' ephemeral database
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="finished db_ephemeral_update_change_flags"] Commit operation in progress: finished db_ephemeral_update_change_flags
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="updating database version"] Commit operation in progress: updating database version
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="daemons checking new configuration"] Commit operation in progress: daemons checking new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.817Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="commit wrapup..."] Commit operation in progress: commit wrapup...
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.822Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="notifying daemons of new configuration"] Commit operation in progress: notifying daemons of new configuration
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.822Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message=" notifying none(0)"] Commit operation in progress:  notifying none(0)
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.822Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="cannot signal 'None process', signal 1, no pid"] Commit operation in progress: cannot signal 'None process', signal 1, no pid
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.828Z CR2 mgd 225 UI_COMMIT_PROGRESS [junos@- message="commit complete"] Commit operation in progress: commit complete
+Mar 22 21:16:33 CR2 : <188>1 2022-03-22T21:16:33.828Z CR2 mgd 225 UI_EPHEMERAL_COMMIT_COMPLETED [junos@- instance="junos-analytics"] commit complete on 'junos-analytics' ephemeral database
+Mar 22 21:16:33 CR2 kernel: [46919.764375] IPv6: ADDRCONF(NETDEV_UP): gretap0: link is not ready
+Mar 22 21:16:33 CR2 kernel: [46919.764383] IPv6: ADDRCONF(NETDEV_UP): erspan0: link is not ready
+Mar 22 21:16:33 CR2 kernel: [46919.764385] IPv6: ADDRCONF(NETDEV_UP): sit0: link is not ready
+Mar 22 21:16:33 CR2 kernel: [46919.764386] IPv6: ADDRCONF(NETDEV_UP): ip6tnl0: link is not ready
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.829Z CR2 mgd 225 UI_NETCONF_CMD [junos@- username="root" command="close-configuration"] User 'root' used NETCONF client to run command 'close-configuration'
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.831Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="__mpls-oam__" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="4"] ALLOC: RTTable_Name: __mpls-oam__ Rtt_specific_index: 0 NameIndex: 4
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.838Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="__srm6__" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="5"] ALLOC: RTTable_Name: __srm6__ Rtt_specific_index: 0 NameIndex: 5
+Mar 22 21:16:33 CR2 : <190>1 2022-03-22T21:16:33.847Z CR2 mgd 225 UI_NETCONF_CMD [junos@- username="root" command="close-session"] User 'root' used NETCONF client to run command 'close-session'
+Mar 22 21:16:33 CR2 rpd: sysctl net.jsr.jsm_reg_proto_ka not supported
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.856Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for unique destinations:" maximum-value="1" time="2022-03-22 21:16:33"] New RIB highwatermark for unique destinations: 1 [2022-03-22 21:16:33]
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.856Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for routes:" maximum-value="1" time="2022-03-22 21:16:33"] New RIB highwatermark for routes: 1 [2022-03-22 21:16:33]
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.860Z CR2 rpd - RPD_COMMIT_SYNC_STATUS [junos@- message="RPD commit sync completed on" re-mode="MASTER"] RPD commit sync completed on MASTER
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.860Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="FREE: RTTable_Name:" argument1="__srm6__" argument2="force:" data-1="1" argument3="NameIndex:" data-2="5"] FREE: RTTable_Name: __srm6__ force: 1 NameIndex: 5
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.860Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="__default_evpn__" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="6"] ALLOC: RTTable_Name: __default_evpn__ Rtt_specific_index: 0 NameIndex: 6
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.860Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="FREE: RTTable_Name:" argument1="__default_evpn__" argument2="force:" data-1="1" argument3="NameIndex:" data-2="6"] FREE: RTTable_Name: __default_evpn__ force: 1 NameIndex: 6
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.867Z CR2 rpd - RPD_COMMIT_JOBS_STATUS [junos@- message=" RPD commit jobs started on" re-mode="MASTER"]  RPD commit jobs started on MASTER
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.867Z CR2 rpd - JTASK_TASK_BEGIN [junos@- process-version="21.4R1.12" date="2021-12-17 14:41:21 UTC" builder="builder"] Commencing routing updates version 21.4R1.12, built 2021-12-17 14:41:21 UTC by builder
+Mar 22 21:16:33 CR2 rpd: task_get_port: getservbyname("bgp", "tcp") failed, using port 179
+Mar 22 21:16:33 CR2 rpd: L2VPN acquiring mastership for primary
+Mar 22 21:16:33 CR2 rpd: task_get_proto: getprotobyname("ipv6-icmp") failed, using proto 58
+Mar 22 21:16:33 CR2 rpd: task_get_proto: getprotobyname("icmp") failed, using proto 1
+Mar 22 21:16:33 CR2 rpd: vpls_dyn_config_repo_initialize:Initializing
+Mar 22 21:16:33 CR2 rpd: List head/mem block for orphaned session IDs init'd
+Mar 22 21:16:33 CR2 rpd: L2CKT acquiring mastership for primary
+Mar 22 21:16:33 CR2 rpd: l2vpn_dyn_config_repo_flush:Session DB still recoverying - postpone flush op
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.908Z CR2 rpd - RPD_IFD_NOTIFICATION [junos@- state="Add Bandwidth MTU Encapsulation" interface-name="irb" interface-index="9" message="<Broadcast Multicast> address #0 7e:e0:b0:c7:5c:58"] EVENT <Add Bandwidth MTU Encapsulation> irb index 9 <Broadcast Multicast> address #0 7e:e0:b0:c7:5c:58
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.908Z CR2 rpd - RPD_IFD_NOTIFICATION [junos@- state="UpDown" interface-name="irb" interface-index="9" message="<Up Broadcast Multicast> address #0 7e:e0:b0:c7:5c:58"] EVENT <UpDown> irb index 9 <Up Broadcast Multicast> address #0 7e:e0:b0:c7:5c:58
+Mar 22 21:16:33 CR2 : <14>1 2022-03-22T21:16:33.908Z CR2 rpd - RPD_IFA_NOTIFICATION [junos@- state="UpDown" interface-name="irb" interface-index="9" message="<Up Broadcast Multicast>"] EVENT <UpDown> irb index 9 <Up Broadcast Multicast>
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.911Z CR2 rpd - RPD_COMMIT_JOBS_STATUS [junos@- message=" RPD commit jobs completed on" re-mode="MASTER"]  RPD commit jobs completed on MASTER
+Mar 22 21:16:33 CR2 : <13>1 2022-03-22T21:16:33.912Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New FIB highwatermark for routes:" maximum-value="1" time="2022-03-22 21:16:33"] New FIB highwatermark for routes: 1 [2022-03-22 21:16:33]
+Mar 22 21:16:33 CR2 rpd: Feature "" (243) disabled due to lack of valid license
+Mar 22 21:16:33 CR2 rpd: Feature "" (244) disabled due to lack of valid license
+Mar 22 21:16:33 CR2 rpd: Feature "" (245) disabled due to lack of valid license
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.758Z CR2 mgd 239 UI_AUTH_EVENT [junos@- username="root" authentication-level="super-user"] Authenticated user 'root' assigned to class 'super-user'
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.758Z CR2 mgd 239 UI_LOGIN_EVENT [junos@- username="root" class-name="super-user" local-peer="" pid="239" ssh-connection="" client-mode="cli"] User 'root' login, class 'super-user' [239], ssh-connection '', client-mode 'cli'
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.763Z CR2 mgd 239 UI_CMDLINE_READ_LINE [junos@- username="root" command="xml-mode netconf need-trailer "] User 'root', command 'xml-mode netconf need-trailer '
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.765Z CR2 mgd 239 UI_LOGOUT_EVENT [junos@- username="root"] User 'root' logout
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.805Z CR2 mgd 130 UI_AUTH_EVENT [junos@- username="root" authentication-level="super-user"] Authenticated user 'root' assigned to class 'super-user'
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.805Z CR2 mgd 130 UI_LOGIN_EVENT [junos@- username="root" class-name="super-user" local-peer="" pid="130" ssh-connection="" client-mode="netconf"] User 'root' login, class 'super-user' [130], ssh-connection '', client-mode 'netconf'
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.807Z CR2 mgd 130 UI_CMDLINE_READ_LINE [junos@- username="root" command="hello capabilities capability urn:ietf:params:netconf:base:1.0 capability capabilities hello rpc command show task memory detail "] User 'root', command 'hello capabilities capability urn:ietf:params:netconf:base:1.0 capability capabilities hello rpc command show task memory detail '
+Mar 22 21:16:37 CR2 : <190>1 2022-03-22T21:16:37.807Z CR2 mgd 130 UI_NETCONF_CMD [junos@- username="root" command="get-task-memory-information level=detail"] User 'root' used NETCONF client to run command 'get-task-memory-information level=detail'
+Mar 22 21:17:03 CR2 : <13>1 2022-03-22T21:17:03.868Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for unique destinations:" maximum-value="20" time="2022-03-22 21:16:34"] New RIB highwatermark for unique destinations: 20 [2022-03-22 21:16:34]
+Mar 22 21:17:03 CR2 : <13>1 2022-03-22T21:17:03.868Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for routes:" maximum-value="21" time="2022-03-22 21:16:34"] New RIB highwatermark for routes: 21 [2022-03-22 21:16:34]
+Mar 22 21:17:59 CR2 : <190>1 2022-03-22T21:17:59.343Z CR2 mgd 248 UI_AUTH_EVENT [junos@- username="root" authentication-level="super-user"] Authenticated user 'root' assigned to class 'super-user'
+Mar 22 21:17:59 CR2 : <190>1 2022-03-22T21:17:59.343Z CR2 mgd 248 UI_LOGIN_EVENT [junos@- username="root" class-name="super-user" local-peer="" pid="248" ssh-connection="" client-mode="cli"] User 'root' login, class 'super-user' [248], ssh-connection '', client-mode 'cli'
+Mar 22 21:18:00 CR2 : <190>1 2022-03-22T21:18:00.591Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="edit "] User 'root', command 'edit '
+Mar 22 21:18:00 CR2 : <189>1 2022-03-22T21:18:00.592Z CR2 mgd 248 UI_DBASE_LOGIN_EVENT [junos@- username="root"] User 'root' entering configuration mode
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.147Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[interfaces lo0 unit 0\]" delimiter="" value=""] User 'root' set: [interfaces lo0 unit 0] 
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.148Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[interfaces lo0 unit 0 family iso\]" delimiter="" value=""] User 'root' set: [interfaces lo0 unit 0 family iso] 
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.148Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[interfaces lo0 unit 0 family iso address 49.0001.0000.0000.0002.00\]" delimiter="" value=""] User 'root' set: [interfaces lo0 unit 0 family iso address 49.0001.0000.0000.0002.00] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.148Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set interfaces lo0 unit 0 family iso address 49.0001.0000.0000.0002.00 "] User 'root', command 'set interfaces lo0 unit 0 family iso address 49.0001.0000.0000.0002.00 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.156Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[routing-options router-id\]" delimiter="" data="unconfigured" value="2.2.2.2"] User 'root' set: [routing-options router-id] unconfigured -- "2.2.2.2"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.157Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set routing-options router-id 2.2.2.2 "] User 'root', command 'set routing-options router-id 2.2.2.2 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.165Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols isis interface eth1\]" delimiter="" value=""] User 'root' set: [protocols isis interface eth1] 
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.165Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols isis interface eth1 level 2 metric\]" delimiter="" data="unconfigured" value="100"] User 'root' set: [protocols isis interface eth1 level 2 metric] unconfigured -- "100"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.165Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis interface eth1 level 2 metric 100 "] User 'root', command 'set protocols isis interface eth1 level 2 metric 100 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.169Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols isis interface eth1\]" delimiter="" data="unconfigured" value="point-to-point"] User 'root' set: [protocols isis interface eth1] unconfigured -- "point-to-point"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.169Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis interface eth1 point-to-point "] User 'root', command 'set protocols isis interface eth1 point-to-point '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.173Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols isis interface eth2\]" delimiter="" value=""] User 'root' set: [protocols isis interface eth2] 
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.173Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols isis interface eth2 level 2 metric\]" delimiter="" data="unconfigured" value="100"] User 'root' set: [protocols isis interface eth2 level 2 metric] unconfigured -- "100"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.173Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis interface eth2 level 2 metric 100 "] User 'root', command 'set protocols isis interface eth2 level 2 metric 100 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.177Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols isis interface eth2\]" delimiter="" data="unconfigured" value="point-to-point"] User 'root' set: [protocols isis interface eth2] unconfigured -- "point-to-point"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.177Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis interface eth2 point-to-point "] User 'root', command 'set protocols isis interface eth2 point-to-point '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.181Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols isis interface lo.0\]" delimiter="" value=""] User 'root' set: [protocols isis interface lo.0] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.181Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis interface lo.0 "] User 'root', command 'set protocols isis interface lo.0 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.185Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols isis interface lo0.0\]" delimiter="" value=""] User 'root' set: [protocols isis interface lo0.0] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.185Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis interface lo0.0 "] User 'root', command 'set protocols isis interface lo0.0 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.191Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols isis level 1\]" delimiter="" data="unconfigured" value="disable"] User 'root' set: [protocols isis level 1] unconfigured -- "disable"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.192Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis level 1 disable "] User 'root', command 'set protocols isis level 1 disable '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.198Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols isis level 2\]" delimiter="" data="unconfigured" value="wide-metrics-only"] User 'root' set: [protocols isis level 2] unconfigured -- "wide-metrics-only"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.199Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols isis level 2 wide-metrics-only "] User 'root', command 'set protocols isis level 2 wide-metrics-only '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.203Z CR2 mgd 248 UI_CFG_AUDIT_SET [junos@- username="root" action="set" pathname="[protocols ldp transport-address\]" delimiter="" data="unconfigured" value="router-id"] User 'root' set: [protocols ldp transport-address] unconfigured -- "router-id"
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.203Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols ldp transport-address router-id "] User 'root', command 'set protocols ldp transport-address router-id '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.206Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols ldp interface eth1\]" delimiter="" value=""] User 'root' set: [protocols ldp interface eth1] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.206Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols ldp interface eth1 "] User 'root', command 'set protocols ldp interface eth1 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.209Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols ldp interface eth2\]" delimiter="" value=""] User 'root' set: [protocols ldp interface eth2] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.209Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols ldp interface eth2 "] User 'root', command 'set protocols ldp interface eth2 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.213Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols ldp interface lo.0\]" delimiter="" value=""] User 'root' set: [protocols ldp interface lo.0] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.213Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols ldp interface lo.0 "] User 'root', command 'set protocols ldp interface lo.0 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.216Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols mpls interface eth1\]" delimiter="" value=""] User 'root' set: [protocols mpls interface eth1] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.217Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols mpls interface eth1 "] User 'root', command 'set protocols mpls interface eth1 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.221Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols mpls interface eth2\]" delimiter="" value=""] User 'root' set: [protocols mpls interface eth2] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.222Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols mpls interface eth2 "] User 'root', command 'set protocols mpls interface eth2 '
+Mar 22 21:18:06 CR2 : <182>1 2022-03-22T21:18:06.225Z CR2 mgd 248 UI_CFG_AUDIT_OTHER [junos@- username="root" action="set" pathname="[protocols mpls interface lo.0\]" delimiter="" value=""] User 'root' set: [protocols mpls interface lo.0] 
+Mar 22 21:18:06 CR2 : <190>1 2022-03-22T21:18:06.226Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="set protocols mpls interface lo.0 "] User 'root', command 'set protocols mpls interface lo.0 '
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.963Z CR2 mgd 248 UI_CMDLINE_READ_LINE [junos@- username="root" command="commit and-quit "] User 'root', command 'commit and-quit '
+Mar 22 21:18:07 CR2 : <189>1 2022-03-22T21:18:07.964Z CR2 mgd 248 UI_COMMIT [junos@- username="root" command="commit" message="none"] User 'root' requested 'commit' operation (comment: none)
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.965Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Obtaining lock for commit"] Commit operation in progress: Obtaining lock for commit
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.966Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="updating commit revision"] Commit operation in progress: updating commit revision
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.966Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="UI extensions feature is not configured"] Commit operation in progress: UI extensions feature is not configured
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.966Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="UI change-notification feature is not configured"] Commit operation in progress: UI change-notification feature is not configured
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.967Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Started running translation script"] Commit operation in progress: Started running translation script
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.985Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="No delta input for translation"] Commit operation in progress: No delta input for translation
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.985Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Finished running translation script"] Commit operation in progress: Finished running translation script
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.985Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="start loading commit script changes"] Commit operation in progress: start loading commit script changes
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.986Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="no commit script changes"] Commit operation in progress: no commit script changes
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.986Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="no transient commit script changes"] Commit operation in progress: no transient commit script changes
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.986Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="finished loading commit script changes"] Commit operation in progress: finished loading commit script changes
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.986Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="No translation output from the scripts"] Commit operation in progress: No translation output from the scripts
+Mar 22 21:18:07 CR2 : <30>1 2022-03-22T21:18:07.986Z CR2 mgd 248 UI_COMMIT_NO_MASTER_PASSWORD [junos@- message="No 'system master-password' set"]  : No 'system master-password' set
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.986Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="building groups inheritance path proportional in candidate db"] Commit operation in progress: building groups inheritance path proportional in candidate db
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.987Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="finished groups inheritance path"] Commit operation in progress: finished groups inheritance path
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.987Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="copying juniper.db to juniper.data+"] Commit operation in progress: copying juniper.db to juniper.data+
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.989Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="finished copying juniper.db to juniper.data+"] Commit operation in progress: finished copying juniper.db to juniper.data+
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.989Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="exporting juniper.conf"] Commit operation in progress: exporting juniper.conf
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.993Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="expanding interface-ranges"] Commit operation in progress: expanding interface-ranges
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.993Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="finished expanding interface-ranges"] Commit operation in progress: finished expanding interface-ranges
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.993Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="setup foreign files"] Commit operation in progress: setup foreign files
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.998Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="propagating foreign files"] Commit operation in progress: propagating foreign files
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.998Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Sending constraint check command to evaluate constraints"] Commit operation in progress: Sending constraint check command to evaluate constraints
+Mar 22 21:18:07 CR2 : <190>1 2022-03-22T21:18:07.998Z CR2 mgd 248 UI_CHILD_START [junos@- command="/usr/sbin/mustd"] Starting child '/usr/sbin/mustd'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.050Z CR2 mgd 248 UI_CHILD_STATUS [junos@- command="/usr/sbin/mustd" pid="253" status-code="0"] Cleanup child '/usr/sbin/mustd', PID 253, status 0
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.050Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="constraints passed in mustd - not checking constraints in propagation"] Commit operation in progress: constraints passed in mustd - not checking constraints in propagation
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.053Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="complete foreign files"] Commit operation in progress: complete foreign files
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.057Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="dropping unchanged foreign files"] Commit operation in progress: dropping unchanged foreign files
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.057Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="start ffp propagate"] Commit operation in progress: start ffp propagate
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.057Z CR2 mgd 248 UI_CHILD_START [junos@- command="/usr/sbin/ffp"] Starting child '/usr/sbin/ffp'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.067Z CR2 mgd 248 UI_CHILD_STATUS [junos@- command="/usr/sbin/ffp" pid="254" status-code="0"] Cleanup child '/usr/sbin/ffp', PID 254, status 0
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.067Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="finish ffp propagate"] Commit operation in progress: finish ffp propagate
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.067Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="daemons checking new configuration"] Commit operation in progress: daemons checking new configuration
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.067Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Spawning Routing protocols process to check new configuration"] Commit operation in progress: Spawning Routing protocols process to check new configuration
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.067Z CR2 mgd 248 UI_CHILD_START [junos@- command="/usr/sbin/rpd"] Starting child '/usr/sbin/rpd'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.392Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Collecting status of Routing protocols process"] Commit operation in progress: Collecting status of Routing protocols process
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.393Z CR2 mgd 248 UI_CHILD_STATUS [junos@- command="/usr/sbin/rpd" pid="255" status-code="0"] Cleanup child '/usr/sbin/rpd', PID 255, status 0
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.393Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="commit wrapup..."] Commit operation in progress: commit wrapup...
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.394Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="start ffp activate"] Commit operation in progress: start ffp activate
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.394Z CR2 mgd 248 UI_CHILD_START [junos@- command="/usr/sbin/ffp"] Starting child '/usr/sbin/ffp'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.410Z CR2 mgd 248 UI_CHILD_STATUS [junos@- command="/usr/sbin/ffp" pid="260" status-code="0"] Cleanup child '/usr/sbin/ffp', PID 260, status 0
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.411Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/rc.conf.inc'"] Commit operation in progress: activating '/var/etc/rc.conf.inc'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.411Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/motd'"] Commit operation in progress: activating '/var/etc/motd'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.411Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/issue'"] Commit operation in progress: activating '/var/etc/issue'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.412Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/pam.conf'"] Commit operation in progress: activating '/var/etc/pam.conf'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.412Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/etc/pam.d/juniper-auth'"] Commit operation in progress: activating '/etc/pam.d/juniper-auth'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.412Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/pam_radius.conf'"] Commit operation in progress: activating '/var/etc/pam_radius.conf'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.412Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/pam_tacplus.conf'"] Commit operation in progress: activating '/var/etc/pam_tacplus.conf'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.413Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/motd.junos'"] Commit operation in progress: activating '/var/etc/motd.junos'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.413Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/ephinst.conf'"] Commit operation in progress: activating '/var/etc/ephinst.conf'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.413Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/etc/certs'"] Commit operation in progress: activating '/var/etc/certs'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.416Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="executing foreign_commands"] Commit operation in progress: executing foreign_commands
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.420Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="executing ui_commit in rc.ui"] Commit operation in progress: executing ui_commit in rc.ui
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.425Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="finish ffp activate"] Commit operation in progress: finish ffp activate
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.425Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="db_groups_info_clear start"] Commit operation in progress: db_groups_info_clear start
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.427Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="db_groups_info_clear done"] Commit operation in progress: db_groups_info_clear done
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.427Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="activating '/var/run/db/juniper.data'"] Commit operation in progress: activating '/var/run/db/juniper.data'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.429Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="Rotate backup configs"] Commit operation in progress: Rotate backup configs
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.431Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="ssync begins"] Commit operation in progress: ssync begins
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.432Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="ssync ends"] Commit operation in progress: ssync ends
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.432Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="ssync begins"] Commit operation in progress: ssync begins
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.433Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="ssync ends"] Commit operation in progress: ssync ends
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.433Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="notifying daemons of new configuration"] Commit operation in progress: notifying daemons of new configuration
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.433Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message=" notifying none(0)"] Commit operation in progress:  notifying none(0)
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.433Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="cannot signal 'None process', signal 1, no pid"] Commit operation in progress: cannot signal 'None process', signal 1, no pid
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.433Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message=" notifying rpd(5)"] Commit operation in progress:  notifying rpd(5)
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.433Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="signaling 'Routing protocols process', pid 114, signal 1, status 0 with notification errors enabled"] Commit operation in progress: signaling 'Routing protocols process', pid 114, signal 1, status 0 with notification errors enabled
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.435Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="ssync begins"] Commit operation in progress: ssync begins
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.435Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="ssync ends"] Commit operation in progress: ssync ends
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.435Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="mgd tracing: disabled"] Commit operation in progress: mgd tracing: disabled
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.435Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="New database revision 'localhost-1647983887-2' and old database revision 'localhost-1647983791-1'"] Commit operation in progress: New database revision 'localhost-1647983887-2' and old database revision 'localhost-1647983791-1'
+Mar 22 21:18:08 CR2 : <190>1 2022-03-22T21:18:08.435Z CR2 mgd 248 UI_COMMIT_PROGRESS [junos@- message="commit complete"] Commit operation in progress: commit complete
+Mar 22 21:18:08 CR2 : <188>1 2022-03-22T21:18:08.435Z CR2 mgd 248 UI_COMMIT_COMPLETED [junos@- message="commit complete"]  : commit complete 
+Mar 22 21:18:08 CR2 : <189>1 2022-03-22T21:18:08.438Z CR2 mgd 248 UI_DBASE_LOGOUT_EVENT [junos@- username="root"] User 'root' exiting configuration mode
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.441Z CR2 rpd - JTASK_SIGNAL_INFO [junos@- message-name="INFO Singal Info: Singal Number = " signal-number="1" name=" Consumed Count = " data-1="1"] INFO Singal Info: Singal Number =  1  Consumed Count =  1
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.441Z CR2 rpd - JTASK_TASK_REINIT - Reinitializing
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.442Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="__srm6__" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="5"] ALLOC: RTTable_Name: __srm6__ Rtt_specific_index: 0 NameIndex: 5
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.445Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="ldp" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="6"] ALLOC: RTTable_Name: ldp Rtt_specific_index: 0 NameIndex: 6
+Mar 22 21:18:08 CR2 : <11>1 2022-03-22T21:18:08.446Z CR2 rpd - JTASK_SYSTEM [junos@- reason="Setting taskoption failed" error-message="Protocol not available"] Setting taskoption failed: Protocol not available
+Mar 22 21:18:08 CR2 : message repeated 3 times: [ <11>1 2022-03-22T21:18:08.446Z CR2 rpd - JTASK_SYSTEM [junos@- reason="Setting taskoption failed" error-message="Protocol not available"] Setting taskoption failed: Protocol not available]
+Mar 22 21:18:08 CR2 : <13>1 2022-03-22T21:18:08.448Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for unique destinations:" maximum-value="21" time="2022-03-22 21:18:08"] New RIB highwatermark for unique destinations: 21 [2022-03-22 21:18:08]
+Mar 22 21:18:08 CR2 : <13>1 2022-03-22T21:18:08.448Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for routes:" maximum-value="22" time="2022-03-22 21:18:08"] New RIB highwatermark for routes: 22 [2022-03-22 21:18:08]
+Mar 22 21:18:08 CR2 : <13>1 2022-03-22T21:18:08.448Z CR2 rpd - RPD_COMMIT_SYNC_STATUS [junos@- message="RPD commit sync completed on" re-mode="MASTER"] RPD commit sync completed on MASTER
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.449Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="FREE: RTTable_Name:" argument1="__srm6__" argument2="force:" data-1="1" argument3="NameIndex:" data-2="5"] FREE: RTTable_Name: __srm6__ force: 1 NameIndex: 5
+Mar 22 21:18:08 CR2 rpd: L2VPN acquiring mastership for primary
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.450Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="ALLOC: RTTable_Name:" argument1="__default_evpn__" argument2="Rtt_specific_index:" data-1="0" argument3="NameIndex:" data-2="7"] ALLOC: RTTable_Name: __default_evpn__ Rtt_specific_index: 0 NameIndex: 7
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.450Z CR2 rpd - RPD_RT_NAMEINDEX_INFO [junos@- argument="FREE: RTTable_Name:" argument1="__default_evpn__" argument2="force:" data-1="1" argument3="NameIndex:" data-2="7"] FREE: RTTable_Name: __default_evpn__ force: 1 NameIndex: 7
+Mar 22 21:18:08 CR2 : <13>1 2022-03-22T21:18:08.451Z CR2 rpd - RPD_COMMIT_JOBS_STATUS [junos@- message="RPD commit jobs started on" re-mode="MASTER"] RPD commit jobs started on MASTER
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.454Z CR2 rpd - RPD_LDP_NBRUP [junos@- neighbor-address="10.1.2.1" interface-name="eth1"] LDP neighbor 10.1.2.1 (eth1) is up
+Mar 22 21:18:08 CR2 : <13>1 2022-03-22T21:18:08.454Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New FIB highwatermark for routes:" maximum-value="2" time="2022-03-22 21:18:08"] New FIB highwatermark for routes: 2 [2022-03-22 21:18:08]
+Mar 22 21:18:08 CR2 : <13>1 2022-03-22T21:18:08.455Z CR2 rpd - RPD_COMMIT_JOBS_STATUS [junos@- message=" RPD commit jobs completed on" re-mode="MASTER"]  RPD commit jobs completed on MASTER
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.456Z CR2 rpd - RPD_ESIS_ADJUP [junos@- adjacency-type="IS" neighbor-nsap-net="49.0001.0000.0000.0001" interface-name="eth0"] ES-IS new IS adjacency to 49.0001.0000.0000.0001 on eth0
+Mar 22 21:18:08 CR2 : <14>1 2022-03-22T21:18:08.456Z CR2 rpd - RPD_ESIS_ADJUP [junos@- adjacency-type="IS" neighbor-nsap-net="49.0001.0000.0000.0001" interface-name="eth1"] ES-IS new IS adjacency to 49.0001.0000.0000.0001 on eth1
+Mar 22 21:18:08 CR2 rpd: L2CKT acquiring mastership for primary
+Mar 22 21:18:23 CR2 : <14>1 2022-03-22T21:18:23.781Z CR2 rpd - RPD_ISIS_ADJUP [junos@- isis-level="2" neighbor-system-id="0000.0000.0001" interface-name="eth1"] IS-IS new L2 adjacency to 0000.0000.0001 on eth1
+Mar 22 21:18:24 CR2 : <14>1 2022-03-22T21:18:24.810Z CR2 rpd - RPD_LDP_SESSIONUP [junos@- neighbor-address="1.1.1.1"] LDP session 1.1.1.1 is up
+Mar 22 21:18:28 CR2 : <14>1 2022-03-22T21:18:28.873Z CR2 rpd - RPD_LDP_NBRUP [junos@- neighbor-address="10.2.3.3" interface-name="eth2"] LDP neighbor 10.2.3.3 (eth2) is up
+Mar 22 21:18:28 CR2 : <14>1 2022-03-22T21:18:28.881Z CR2 rpd - RPD_ESIS_ADJUP [junos@- adjacency-type="IS" neighbor-nsap-net="49.0001.0000.0000.0003" interface-name="eth0"] ES-IS new IS adjacency to 49.0001.0000.0000.0003 on eth0
+Mar 22 21:18:28 CR2 : <14>1 2022-03-22T21:18:28.881Z CR2 rpd - RPD_ESIS_ADJUP [junos@- adjacency-type="IS" neighbor-nsap-net="49.0001.0000.0000.0003" interface-name="eth2"] ES-IS new IS adjacency to 49.0001.0000.0000.0003 on eth2
+Mar 22 21:18:38 CR2 : <13>1 2022-03-22T21:18:38.448Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for unique destinations:" maximum-value="30" time="2022-03-22 21:18:24"] New RIB highwatermark for unique destinations: 30 [2022-03-22 21:18:24]
+Mar 22 21:18:38 CR2 : <13>1 2022-03-22T21:18:38.449Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for routes:" maximum-value="31" time="2022-03-22 21:18:24"] New RIB highwatermark for routes: 31 [2022-03-22 21:18:24]
+Mar 22 21:18:38 CR2 : <13>1 2022-03-22T21:18:38.455Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New FIB highwatermark for routes:" maximum-value="8" time="2022-03-22 21:18:24"] New FIB highwatermark for routes: 8 [2022-03-22 21:18:24]
+Mar 22 21:18:52 CR2 : <14>1 2022-03-22T21:18:52.500Z CR2 rpd - RPD_ISIS_ADJUP [junos@- isis-level="2" neighbor-system-id="0000.0000.0003" interface-name="eth2"] IS-IS new L2 adjacency to 0000.0000.0003 on eth2
+Mar 22 21:19:00 CR2 : <14>1 2022-03-22T21:19:00.882Z CR2 rpd - RPD_LDP_SESSIONUP [junos@- neighbor-address="3.3.3.3"] LDP session 3.3.3.3 is up
+Mar 22 21:19:08 CR2 : <13>1 2022-03-22T21:19:08.702Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for unique destinations:" maximum-value="34" time="2022-03-22 21:19:00"] New RIB highwatermark for unique destinations: 34 [2022-03-22 21:19:00]
+Mar 22 21:19:08 CR2 : <13>1 2022-03-22T21:19:08.703Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New RIB highwatermark for routes:" maximum-value="35" time="2022-03-22 21:19:00"] New RIB highwatermark for routes: 35 [2022-03-22 21:19:00]
+Mar 22 21:19:08 CR2 : <13>1 2022-03-22T21:19:08.703Z CR2 rpd - RPD_RT_HWM_NOTICE [junos@- message="New FIB highwatermark for routes:" maximum-value="10" time="2022-03-22 21:19:00"] New FIB highwatermark for routes: 10 [2022-03-22 21:19:00]
+Mar 22 21:19:25 CR2 : <190>1 2022-03-22T21:19:25.286Z CR2 mgd 275 UI_AUTH_EVENT [junos@- username="root" authentication-level="super-user"] Authenticated user 'root' assigned to class 'super-user'
+Mar 22 21:19:25 CR2 : <190>1 2022-03-22T21:19:25.286Z CR2 mgd 275 UI_LOGIN_EVENT [junos@- username="root" class-name="super-user" local-peer="" pid="275" ssh-connection="" client-mode="cli"] User 'root' login, class 'super-user' [275], ssh-connection '', client-mode 'cli'
+Mar 22 21:19:25 CR2 : <190>1 2022-03-22T21:19:25.288Z CR2 mgd 275 UI_CMDLINE_READ_LINE [junos@- username="root" command="show conf "] User 'root', command 'show conf '
+Mar 22 21:19:25 CR2 : <190>1 2022-03-22T21:19:25.289Z CR2 mgd 275 UI_LOGOUT_EVENT [junos@- username="root"] User 'root' logout

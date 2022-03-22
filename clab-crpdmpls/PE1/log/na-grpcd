@@ -1,0 +1,634 @@
+Mar 22 21:16:33  #0# Logging enabled --
+Mar 22 21:16:33  #1# GLOBAL CONFIGURATION:
+Mar 22 21:16:33  #2# --------------------
+Mar 22 21:16:33  #3# Telemetry GRPC server unix s : /var/run/japi_na-grpcd
+Mar 22 21:16:33  #4# Telemetry GRPC server ip     : 0.0.0.0
+Mar 22 21:16:33  #5# Telemetry GRPC server port   : 50051
+Mar 22 21:16:33  #6# Telemetry GRPC log file path : /var/log
+Mar 22 21:16:33  #7# Telemetry GRPC log file name : na-grpcd
+Mar 22 21:16:33  #8# Telemetry GRPC log file maximum size : 50
+Mar 22 21:16:33  #9# Telemetry GRPC log maximum files : 5
+Mar 22 21:16:33  #10# Telemetry GRPC log file compression : 1
+Mar 22 21:16:33  #11# Telemetry GRPC log file tracing : 1
+Mar 22 21:16:33  #12# Device MGD Unix socket       : /var/run/japi_mgd
+Mar 22 21:16:33  #13# Device MGD ip                : localhost
+Mar 22 21:16:33  #14# Device MGD port              : 50050
+Mar 22 21:16:33  #15# MQTT broker iri instance     : 1
+Mar 22 21:16:33  #16# MQTT broker ip               : 127.0.0.1
+Mar 22 21:16:33  #17# MQTT broker port             : 21883
+Mar 22 21:16:33  #18# Invoke UDP server            : 0
+Mar 22 21:16:33  #19# UDP server ip                : 0.0.0.0
+Mar 22 21:16:33  #20# UDP server port              : 10000
+Mar 22 21:16:33  #21# Initial Sync server ip       : 0.0.0.0
+Mar 22 21:16:33  #22# Initial Sync RE port         : 32781
+Mar 22 21:16:33  #23# Initial Sync PFE port        : 32780
+Mar 22 21:16:33  #24# JSD init registration        : 1
+Mar 22 21:16:33  #25# JSD unix socket              : /var/run/japi_jsd
+Mar 22 21:16:33  #26# JSD number of retries        : 15
+Mar 22 21:16:33  #27# JSD json file path           : /opt/telemetry/na-grpcd
+Mar 22 21:16:33  #28# JSD json file name           : na-agent.json
+Mar 22 21:16:33  #29# Subscribe topic name         : internal-subscription-id
+Mar 22 21:16:33  #30# System Mode                  : proc
+Mar 22 21:16:33  #31# Running Mode                 : on-box
+Mar 22 21:16:33  #32# Validate OCPaths             : 0
+Mar 22 21:16:33  #33# 
+Mar 22 21:16:33  #34# Registered Translators:
+Mar 22 21:16:33  #35# OC Translator = cpu_memory_util_ext
+Mar 22 21:16:33  #36# OC Translator = fabricMessageExt
+Mar 22 21:16:33  #37# OC Translator = inline_jflow_stats_ext
+Mar 22 21:16:33  #38# OC Translator = jnprLogicalInterfaceExt
+Mar 22 21:16:33  #39# OC Translator = jnpr_af_fab_statistics_ext
+Mar 22 21:16:33  #40# OC Translator = jnpr_cmerror_data_ext
+Mar 22 21:16:33  #41# OC Translator = jnpr_cmerror_ext
+Mar 22 21:16:33  #42# OC Translator = jnpr_ddos_stats_ext
+Mar 22 21:16:33  #43# OC Translator = jnpr_firewall_ext
+Mar 22 21:16:33  #44# OC Translator = jnpr_health_monitor_config_ext
+Mar 22 21:16:33  #45# OC Translator = jnpr_health_monitor_data_ext
+Mar 22 21:16:33  #46# OC Translator = jnpr_interface_exp_ext
+Mar 22 21:16:33  #47# OC Translator = jnpr_interface_ext
+Mar 22 21:16:33  #48# OC Translator = jnpr_interfaces_pfe_port_qstats_ext
+Mar 22 21:16:33  #49# OC Translator = jnpr_iptunnel_statistics_ext
+Mar 22 21:16:33  #50# OC Translator = jnpr_junos_pfe_packet_capture_ext
+Mar 22 21:16:33  #51# OC Translator = jnpr_junos_pfe_spu_cpu_ext
+Mar 22 21:16:33  #52# OC Translator = jnpr_junos_pfe_spu_flow_ext
+Mar 22 21:16:33  #53# OC Translator = jnpr_ldp_lsp_ingress_stats_ext
+Mar 22 21:16:33  #54# OC Translator = jnpr_ldp_lsp_transit_stats_ext
+Mar 22 21:16:33  #55# OC Translator = jnpr_ldp_p2mp_lsp_branch_stats_ext
+Mar 22 21:16:33  #56# OC Translator = jnpr_ldp_p2mp_lsp_stats_ext
+Mar 22 21:16:33  #57# OC Translator = jnpr_ldp_p2mp_per_if_egress_ext
+Mar 22 21:16:33  #58# OC Translator = jnpr_ldp_p2mp_per_if_ingress_ext
+Mar 22 21:16:33  #59# OC Translator = jnpr_lsp_statistics_ext
+Mar 22 21:16:33  #60# OC Translator = jnpr_mpls_SrTePerLspIngressStats_ext
+Mar 22 21:16:33  #61# OC Translator = jnpr_mpls_SrTePerLspTransitStats_ext
+Mar 22 21:16:33  #62# OC Translator = jnpr_network_instances_pfe_per_prefix_v4_ext
+Mar 22 21:16:33  #63# OC Translator = jnpr_network_instances_pfe_per_prefix_v6_ext
+Mar 22 21:16:33  #64# OC Translator = jnpr_npu_utilization_ext
+Mar 22 21:16:33  #65# OC Translator = jnpr_optical_stats_ext
+Mar 22 21:16:33  #66# OC Translator = jnpr_optics_ext
+Mar 22 21:16:33  #67# OC Translator = jnpr_otn_stats_ext
+Mar 22 21:16:33  #68# OC Translator = jnpr_packet_statistics_ext
+Mar 22 21:16:33  #69# OC Translator = jnpr_pfe_export_mon_stats_ext
+Mar 22 21:16:33  #70# OC Translator = jnpr_qmon_ext
+Mar 22 21:16:33  #71# OC Translator = jnpr_sr_stats_per_if_egress_ext
+Mar 22 21:16:33  #72# OC Translator = jnpr_sr_stats_per_if_ingress_ext
+Mar 22 21:16:33  #73# OC Translator = jnpr_sr_stats_per_sid_egress_ext
+Mar 22 21:16:33  #74# OC Translator = jnpr_sr_stats_per_sid_ext
+Mar 22 21:16:33  #75# OC Translator = jnpr_sr_te_bsid_stats_ext
+Mar 22 21:16:33  #76# OC Translator = jnpr_sr_te_ingress_tunnel_stats_ext
+Mar 22 21:16:33  #77# OC Translator = jnpr_sr_te_ip_stats_ext
+Mar 22 21:16:33  #78# OC Translator = jnpr_sr_te_transit_tunnel_stats_ext
+Mar 22 21:16:33  #79# OC Translator = jnpr_transceiver_ext
+Mar 22 21:16:33  #80# OC Translator = kvresponseExt
+Mar 22 21:16:33  #81# OC Translator = npu_memory_ext
+Mar 22 21:16:33  #82# Registered Translators:
+Mar 22 21:16:33  #83# Gnmi Translator = gnmiresponseExt
+Mar 22 21:16:33  #84# Creating new instance of AgentSystemProc
+Mar 22 21:16:34  #85# Issue systemCleanAll - Attempt 1
+Mar 22 21:16:34  #86# <configuration-json>{"configuration":{"services":{"analytics":{"@":{"operation":"delete"}}}}}</configuration-json>
+Mar 22 21:16:44  #87# MGD command to delete all config passed. Config pushed: <configuration-json>{"configuration":{"services":{"analytics":{"@":{"operation":"delete"}}}}}</configuration-json>
+Mar 22 21:16:44  #88# systemClearAll: Success
+Mar 22 21:16:44  #89# Cleared DB - Attempt 1
+Mar 22 21:16:44  #90# Registration json file parsing Success
+Mar 22 21:16:44  #91# Successful to register with JSD - Attempt 1
+Mar 22 21:16:45  #92# Json file "/opt/telemetry/na-grpcd/na-ocpaths.json" parsed successfully
+Mar 22 21:16:45  #93# Number of paths provided in json file = 39
+Mar 22 21:16:45  #94# Path 0 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/health-monitor/config/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #95# Path 1 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/health-monitor/data/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #96# Path 2 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/ip-tunnel/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #97# Path 3 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/label-switched-path/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #98# Path 4 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/segment-routing/interface/egress/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #99# Path 5 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/segment-routing/interface/ingress/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #100# Path 6 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/segment-routing/sid/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #101# Path 7 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/segment-routing/traffic-engineering/ingress/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #102# Path 8 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/segment-routing/traffic-engineering/transit/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #103# Path 9 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/ipv6-unicast/prefix/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #104# Path 10 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/services/ipv4-unicast/prefix/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #105# Path 11 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/cmerror/configuration/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #106# Path 12 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/cmerror/counters/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #107# Path 13 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/cpu/memory/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #108# Path 14 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/fabric/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #109# Path 15 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/firewall/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #110# Path 16 -->{
+   "bulk_support" : true,
+   "filter_support" : false,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/packet-capture/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #111# Path 17 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/interface/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #112# Path 18 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/interface/logical/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #113# Path 19 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/transceiver/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #114# Path 20 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/interface/queue/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #115# Path 21 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/interface/queue/extended-stats/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #116# Path 22 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/interface/traffic/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #117# Path 23 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/intf-exp/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #118# Path 24 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/npu/memory/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #119# Path 25 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/npu/utilization/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #120# Path 26 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/optical/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #121# Path 27 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/optics/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #122# Path 28 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/otn/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #123# Path 29 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/packet/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #124# Path 30 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/services/inline-jflow/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #125# Path 31 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/node-slicing/af-fab-stats/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #126# Path 32 -->{
+   "additional_message_buffer" : true,
+   "binary_support" : false,
+   "initial_sync_packet_size" : 307200,
+   "path" : "/network-instances/network-instance/afts/",
+   "terse_header" : true
+}
+
+Mar 22 21:16:45  #127# Path 33 -->{
+   "bulk_support" : false,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/network-instances/network-instance/protocols/protocol/isis/levels/level/link-state-database/lsp/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #128# Path 34 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/ddos/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #129# Path 35 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/system/linecard/export-monitor/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #130# Path 36 -->{
+   "bulk_support" : false,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/security/spu/cpu/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #131# Path 37 -->{
+   "bulk_support" : false,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/security/spu/flow/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #132# Path 38 -->{
+   "bulk_support" : true,
+   "filter_support" : true,
+   "max_silent_interval_support" : false,
+   "path" : "/junos/security/spu/flow/lsys/usage/",
+   "sample_frequency" : {
+      "max" : 3600000,
+      "min" : 2000
+   },
+   "sample_only" : false,
+   "suppress_unchanged_support" : false
+}
+
+Mar 22 21:16:45  #133# <PathInformation DB>/junos/security/spu/cpu/usage/--->path:/junos/security/spu/cpu/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:0,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #134# <PathInformation DB>/junos/security/spu/flow/lsys/usage/--->path:/junos/security/spu/flow/lsys/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #135# <PathInformation DB>/junos/security/spu/flow/usage/--->path:/junos/security/spu/flow/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:0,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #136# <PathInformation DB>/junos/services/health-monitor/config/--->path:/junos/services/health-monitor/config/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #137# <PathInformation DB>/junos/services/health-monitor/data/--->path:/junos/services/health-monitor/data/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #138# <PathInformation DB>/junos/services/ip-tunnel/usage/--->path:/junos/services/ip-tunnel/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #139# <PathInformation DB>/junos/services/ipv4-unicast/prefix/usage/--->path:/junos/services/ipv4-unicast/prefix/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #140# <PathInformation DB>/junos/services/ipv6-unicast/prefix/usage/--->path:/junos/services/ipv6-unicast/prefix/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #141# <PathInformation DB>/junos/services/label-switched-path/usage/--->path:/junos/services/label-switched-path/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #142# <PathInformation DB>/junos/services/segment-routing/interface/egress/usage/--->path:/junos/services/segment-routing/interface/egress/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #143# <PathInformation DB>/junos/services/segment-routing/interface/ingress/usage/--->path:/junos/services/segment-routing/interface/ingress/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #144# <PathInformation DB>/junos/services/segment-routing/sid/usage/--->path:/junos/services/segment-routing/sid/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #145# <PathInformation DB>/junos/services/segment-routing/traffic-engineering/ingress/usage/--->path:/junos/services/segment-routing/traffic-engineering/ingress/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #146# <PathInformation DB>/junos/services/segment-routing/traffic-engineering/transit/usage/--->path:/junos/services/segment-routing/traffic-engineering/transit/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #147# <PathInformation DB>/junos/system/cmerror/configuration/--->path:/junos/system/cmerror/configuration/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #148# <PathInformation DB>/junos/system/cmerror/counters/--->path:/junos/system/cmerror/counters/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #149# <PathInformation DB>/junos/system/linecard/cpu/memory/--->path:/junos/system/linecard/cpu/memory/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #150# <PathInformation DB>/junos/system/linecard/ddos/--->path:/junos/system/linecard/ddos/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #151# <PathInformation DB>/junos/system/linecard/export-monitor/--->path:/junos/system/linecard/export-monitor/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #152# <PathInformation DB>/junos/system/linecard/fabric/--->path:/junos/system/linecard/fabric/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #153# <PathInformation DB>/junos/system/linecard/firewall/--->path:/junos/system/linecard/firewall/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #154# <PathInformation DB>/junos/system/linecard/interface/--->path:/junos/system/linecard/interface/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #155# <PathInformation DB>/junos/system/linecard/interface/logical/usage/--->path:/junos/system/linecard/interface/logical/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #156# <PathInformation DB>/junos/system/linecard/interface/queue/--->path:/junos/system/linecard/interface/queue/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #157# <PathInformation DB>/junos/system/linecard/interface/queue/extended-stats/--->path:/junos/system/linecard/interface/queue/extended-stats/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #158# <PathInformation DB>/junos/system/linecard/interface/traffic/--->path:/junos/system/linecard/interface/traffic/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #159# <PathInformation DB>/junos/system/linecard/intf-exp/--->path:/junos/system/linecard/intf-exp/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #160# <PathInformation DB>/junos/system/linecard/node-slicing/af-fab-stats/--->path:/junos/system/linecard/node-slicing/af-fab-stats/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #161# <PathInformation DB>/junos/system/linecard/npu/memory/--->path:/junos/system/linecard/npu/memory/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #162# <PathInformation DB>/junos/system/linecard/npu/utilization/--->path:/junos/system/linecard/npu/utilization/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #163# <PathInformation DB>/junos/system/linecard/optical/--->path:/junos/system/linecard/optical/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #164# <PathInformation DB>/junos/system/linecard/optics/--->path:/junos/system/linecard/optics/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #165# <PathInformation DB>/junos/system/linecard/otn/--->path:/junos/system/linecard/otn/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #166# <PathInformation DB>/junos/system/linecard/packet-capture/--->path:/junos/system/linecard/packet-capture/,filter_support:0,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #167# <PathInformation DB>/junos/system/linecard/packet/usage/--->path:/junos/system/linecard/packet/usage/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #168# <PathInformation DB>/junos/system/linecard/services/inline-jflow/--->path:/junos/system/linecard/services/inline-jflow/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #169# <PathInformation DB>/junos/system/linecard/transceiver/--->path:/junos/system/linecard/transceiver/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #170# <PathInformation DB>/network-instances/network-instance/afts/--->path:/network-instances/network-instance/afts/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:1,terse_header:1,additional_message_buffer:1,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
+Mar 22 21:16:45  #171# <PathInformation DB>/network-instances/network-instance/protocols/protocol/isis/levels/level/link-state-database/lsp/--->path:/network-instances/network-instance/protocols/protocol/isis/levels/level/link-state-database/lsp/,filter_support:1,suppress_unchanged_support:0,max_silent_interval_support:0,bulk_support:0,terse_header:0,additional_message_buffer:0,sample_only:0,sample_frequency_min:2000,sample_frequency_max:3600000
