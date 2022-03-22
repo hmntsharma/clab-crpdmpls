@@ -97,6 +97,55 @@ INFO[0005] Adding containerlab host entries to /etc/hosts file
 lab@ubuntu1804:~/github/clab-crpdmpls$
 ```
 
+### containerlab yml file 
+cRPD uses Linux kernel forwarding, for which all the interface config is done in the shell.
+The "linux_net_config" directory contains the interface configuration for all the routers and hosts.
+The contents of the files are executed as instructed in the yml file and the IP addresses and routing are configured accordingly.
+
+```
+root@PE1:/# ip addr show eth1
+238: eth1@if237: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9500 qdisc noqueue state UP group default
+    link/ether aa:c1:ab:ab:a1:80 brd ff:ff:ff:ff:ff:ff link-netnsid 1
+    inet 10.1.2.1/24 scope global eth1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a8c1:abff:feab:a180/64 scope link
+       valid_lft forever preferred_lft forever
+root@PE1:/# ip addr show eth3
+240: eth3@if239: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9500 qdisc noqueue master __crpd-vrf1 state UP group default
+    link/ether aa:c1:ab:41:48:1d brd ff:ff:ff:ff:ff:ff link-netnsid 2
+    inet 192.168.100.2/24 scope global eth3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a8c1:abff:fe41:481d/64 scope link
+       valid_lft forever preferred_lft forever
+root@PE1:/# ip addr show lo
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet 1.1.1.1/32 scope global lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+root@PE1:/#
+```
+
+```
+lab@ubuntu1804:~$ sudo docker exec -it HOST1 bash
+bash-5.1# ip addr show eth3
+239: eth3@if240: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9500 qdisc noqueue state UP group default
+    link/ether aa:c1:ab:3c:71:e1 brd ff:ff:ff:ff:ff:ff link-netnsid 1
+    inet 192.168.100.1/24 scope global eth3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a8c1:abff:fe3c:71e1/64 scope link
+       valid_lft forever preferred_lft forever
+bash-5.1# ip route show
+default via 192.168.100.2 dev eth3
+172.20.20.0/24 dev eth0 proto kernel scope link src 172.20.20.2
+192.168.100.0/24 dev eth3 proto kernel scope link src 192.168.100.1
+bash-5.1#
+```
+
+
 ### Verify Dynamic Routing and Forwarding 
 ```
 root@PE1> show isis interface
