@@ -372,7 +372,7 @@ root@PE1:/#
 ```
 
 
-### End to End communication
+### End to End communication via MPLS forwarding
 
 #### Ping from HOST1 to HOST3
 ```
