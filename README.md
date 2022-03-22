@@ -60,34 +60,34 @@ lab@ubuntu1804:~/
 ### Deploy the lab
 
 ```
-lab@ubuntu1804:~/github/clab-crpdmpls$ sudo clab deploy -t crpdmpls.yml
+lab@ubuntu1804:~/clab/clab-crpdmpls$ sudo clab deploy -t crpdmpls.yml
 INFO[0000] Containerlab v0.25.1 started
 INFO[0000] Parsing & checking topology file: crpdmpls.yml
-INFO[0000] Creating lab directory: /home/lab/github/clab-crpdmpls/clab-crpdmpls
+INFO[0000] Creating lab directory: /home/lab/clab/clab-crpdmpls/clab-crpdmpls
 INFO[0000] Creating docker network: Name="clab", IPv4Subnet="172.20.20.0/24", IPv6Subnet="2001:172:20:20::/64", MTU="1500"
-INFO[0000] config file '/home/lab/github/clab-crpdmpls/clab-crpdmpls/PE1/config/juniper.conf' for node 'PE1' already exists and will not be generated/reset
+INFO[0000] Creating container: "HOST3"
+INFO[0000] config file '/home/lab/clab/clab-crpdmpls/clab-crpdmpls/PE1/config/juniper.conf' for node 'PE1' already exists and will not be generated/reset
 INFO[0000] Creating container: "HOST1"
 INFO[0000] Creating container: "PE1"
-INFO[0000] Creating container: "HOST3"
-INFO[0000] config file '/home/lab/github/clab-crpdmpls/clab-crpdmpls/PE3/config/juniper.conf' for node 'PE3' already exists and will not be generated/reset
-INFO[0000] config file '/home/lab/github/clab-crpdmpls/clab-crpdmpls/CR2/config/juniper.conf' for node 'CR2' already exists and will not be generated/reset
+INFO[0000] config file '/home/lab/clab/clab-crpdmpls/clab-crpdmpls/PE3/config/juniper.conf' for node 'PE3' already exists and will not be generated/reset
 INFO[0000] Creating container: "PE3"
+INFO[0000] config file '/home/lab/clab/clab-crpdmpls/clab-crpdmpls/CR2/config/juniper.conf' for node 'CR2' already exists and will not be generated/reset
 INFO[0000] Creating container: "CR2"
-INFO[0003] Creating virtual wire: PE3:eth3 <--> HOST3:eth3
-INFO[0004] Creating virtual wire: CR2:eth2 <--> PE3:eth2
-INFO[0005] Creating virtual wire: PE1:eth1 <--> CR2:eth1
-INFO[0005] Creating virtual wire: PE1:eth3 <--> HOST1:eth3
+INFO[0004] Creating virtual wire: PE1:eth3 <--> HOST1:eth3
+INFO[0004] Creating virtual wire: PE1:eth1 <--> CR2:eth1
+INFO[0005] Creating virtual wire: PE3:eth3 <--> HOST3:eth3
+INFO[0005] Creating virtual wire: CR2:eth2 <--> PE3:eth2
 INFO[0005] Adding containerlab host entries to /etc/hosts file
 +---+-------+--------------+-------------------------+-------+---------+----------------+----------------------+
 | # | Name  | Container ID |          Image          | Kind  |  State  |  IPv4 Address  |     IPv6 Address     |
 +---+-------+--------------+-------------------------+-------+---------+----------------+----------------------+
-| 1 | CR2   | 876f05b7ac26 | crpd:21.4R1.12          | crpd  | running | 172.20.20.5/24 | 2001:172:20:20::5/64 |
-| 2 | HOST1 | 5f15f832ab43 | wbitt/network-multitool | linux | running | 172.20.20.2/24 | 2001:172:20:20::2/64 |
-| 3 | HOST3 | 631e71cb49d8 | wbitt/network-multitool | linux | running | 172.20.20.3/24 | 2001:172:20:20::3/64 |
-| 4 | PE1   | ab2639c318e5 | crpd:21.4R1.12          | crpd  | running | 172.20.20.4/24 | 2001:172:20:20::4/64 |
-| 5 | PE3   | 864f65e23ec0 | crpd:21.4R1.12          | crpd  | running | 172.20.20.6/24 | 2001:172:20:20::6/64 |
+| 1 | CR2   | 27a6033fc96d | crpd:21.4R1.12          | crpd  | running | 172.20.20.3/24 | 2001:172:20:20::3/64 |
+| 2 | HOST1 | 05a6e3e40557 | wbitt/network-multitool | linux | running | 172.20.20.2/24 | 2001:172:20:20::2/64 |
+| 3 | HOST3 | 9fa286561c75 | wbitt/network-multitool | linux | running | 172.20.20.4/24 | 2001:172:20:20::4/64 |
+| 4 | PE1   | 060c756bf230 | crpd:21.4R1.12          | crpd  | running | 172.20.20.6/24 | 2001:172:20:20::6/64 |
+| 5 | PE3   | 8db6bb66d5a7 | crpd:21.4R1.12          | crpd  | running | 172.20.20.5/24 | 2001:172:20:20::5/64 |
 +---+-------+--------------+-------------------------+-------+---------+----------------+----------------------+
-lab@ubuntu1804:~/github/clab-crpdmpls$
+lab@ubuntu1804:~/clab/clab-crpdmpls$
 ```
 
 ### Verify Linux interface configuration
