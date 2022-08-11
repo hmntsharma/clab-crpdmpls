@@ -46,7 +46,7 @@ lab@ubuntu1804:~$
 
 ### Clone the repository
 ```
-lab@ubuntu1804:~/clab$ sudo git clone https://github.com/w1nt3rfell/clab-crpdmpls.git
+lab@ubuntu1804:~/clab$ sudo git clone https://github.com/hmntsharma/clab-crpdmpls.git
 Cloning into 'clab-crpdmpls'...
 remote: Enumerating objects: 110, done.
 remote: Counting objects: 100% (110/110), done.
